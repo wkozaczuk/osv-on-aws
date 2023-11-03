@@ -1,8 +1,8 @@
 #!/bin/bash
-AWS_CLI="aws --profile best-dev"
+AWS_CLI="aws --profile personal"
 
-VPC_ID=vpc-7d65b718
-AMI=$1
+VPC_ID=$1
+AMI=$2
 
 SCRIPT_DIR=$(dirname $0)
 source $SCRIPT_DIR/../env.sh

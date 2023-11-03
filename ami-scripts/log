@@ -1,0 +1,16 @@
+2019-01-24 08:13:33 Status of import snapshot task: [active,Preparing snapshot,97]
+2019-01-24 08:13:38 Status of import snapshot task: [active,Preparing snapshot,97]
+2019-01-24 08:13:44 Status of import snapshot task: [active,Preparing snapshot,97]
+2019-01-24 08:13:49 Status of import snapshot task: [active,Preparing snapshot,97]
+2019-01-24 08:13:55 Status of import snapshot task: [active,Preparing snapshot,97]
+2019-01-24 08:14:01 Status of import snapshot task: [active,Preparing snapshot,97]
+2019-01-24 08:14:06 Status of import snapshot task: [active,Preparing snapshot,97]
+2019-01-24 08:14:12 Status of import snapshot task: [active,Preparing snapshot,97]
+2019-01-24 08:14:17 Status of import snapshot task: [active,Preparing snapshot,97]
+2019-01-24 08:14:23 Status of import snapshot task: [completed,null,null]
+2019-01-24 08:14:23 Completed importing snapshot ID: snap-03c73920b96e87df5
+2019-01-24 08:14:23 Registering snapshot ID: snap-03c73920b96e87df5 as AMI
+2019-01-24 08:14:24 Registered AMI: ami-0c3bc6889f539d53a
+2019-01-24 08:14:24 State of the image: available
+2019-01-24 08:14:24 Completed registering AMI: ami-0c3bc6889f539d53a
+

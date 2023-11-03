@@ -2,8 +2,8 @@
 AWS_CLI="aws --profile personal"
 
 IMAGE_PATH=$1
-S3_BUCKET_NAME=wkozaczuk-osv-images
-IMAGE_NAME=$2
+S3_BUCKET_NAME=$2
+IMAGE_NAME=$3
 
 SCRIPT_DIR=$(dirname $0)
 source $SCRIPT_DIR/env.sh
