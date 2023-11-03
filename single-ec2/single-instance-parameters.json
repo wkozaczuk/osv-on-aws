@@ -1,0 +1,22 @@
+[
+  {
+    "ParameterKey": "pVpcId",
+    "ParameterValue": "vpc-1e51687a"
+  },
+  {
+    "ParameterKey": "pSubnetId",
+    "ParameterValue": "subnet-1e761168"
+  },
+  {
+    "ParameterKey": "pInstanceName",
+    "ParameterValue": "golang-pie-htttpserver-fixed"
+  },
+  {
+    "ParameterKey": "pInstanceType",
+    "ParameterValue": "t2.nano"
+  },
+  {
+    "ParameterKey": "pImageId",
+    "ParameterValue": "ami-0548b8ab1a4b67836"
+  }
+]

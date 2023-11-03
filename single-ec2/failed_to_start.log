@@ -1,0 +1,63 @@
+ROFS
+---------------->
+aws --profile personal ec2 get-console-output --instance-id i-0fb68af889bd9e106 --output text
+i-0fb68af889bd9e106	OSv v0.52.0-55-gb8bba9c7
+Assertion failed: !safemode_or_autounlink || node_algorithms::inited(to_insert) (/usr/include/boost/intrusive/list.hpp: push_front: 282)
+
+[backtrace]
+0x000000000023f30a <__assert_fail+26>
+0x00000000003eeb7a <void memory::page_range_allocator::insert<true>(memory::page_range&)+858>
+0x00000000003ea07f <???+4104319>
+0x00000000003eb477 <free+119>
+0x0000000000441c03 <???+4463619>
+0x000000000043aa74 <sys_mount+788>
+0x0000000000436a70 <mount_rofs_rootfs+64>
+0x000000000022bbc0 <do_main_thread(void*)+2816>
+0x000000000045a0f5 <???+4563189>
+0x00000000003fdad6 <thread_main_c+38>
+0x00000000003a3ff2 <???+3817458>
+	2019-03-09T17:51:49.000Z
+
+-------------------------------------------------------
+b6485a42 --output text
+i-0a27477aab6485a42	OSv v0.52.0-55-gb8bba9c7
+Assertion failed: !safemode_or_autounlink || node_algorithms::inited(to_insert) (/usr/include/boost/intrusive/list.hpp: push_front: 282)
+
+[backtrace]
+0x000000000023f30a <__assert_fail+26>
+0x00000000003eeb7a <void memory::page_range_allocator::insert<true>(memory::page_range&)+858>
+0x00000000003ea07f <???+4104319>
+0x00000000003eb477 <free+119>
+0x0000000000441c03 <???+4463619>
+0x000000000043aa74 <sys_mount+788>
+0x0000000000436a70 <mount_rofs_rootfs+64>
+0x000000000022bbc0 <do_main_thread(void*)+2816>
+0x000000000045a0f5 <???+4563189>
+0x00000000003fdad6 <thread_main_c+38>
+0x00000000003a3ff2 <???+3817458>
+	2019-03-09T18:40:38.000Z
+
+------------------------------------------------------
+i-0ffad349aabe2adda	vga: Add VGA device instance
+eth0: ethernet address: 0a:63:57:0e:4e:cc
+backend features: feature-sg feature-gso-tcp4
+1024MB <Virtual Block Device> at device/vbd/51712random: intel drng, rdrand registered as a source.
+random: <Software, Yarrow> initialized
+VFS: unmounting /dev
+VFS: mounting rofs at /rofs
+Assertion failed: !safemode_or_autounlink || node_algorithms::inited(to_insert) (/usr/include/boost/intrusive/list.hpp: push_front: 282)
+
+[backtrace]
+0x000000000023f30a <__assert_fail+26>
+0x00000000003eeb7a <void memory::page_range_allocator::insert<true>(memory::page_range&)+858>
+0x00000000003ea07f <???+4104319>
+0x00000000003eb477 <free+119>
+0x0000000000441c03 <???+4463619>
+0x000000000043aa74 <sys_mount+788>
+0x0000000000436a70 <mount_rofs_rootfs+64>
+0x000000000022bbc0 <do_main_thread(void*)+2816>
+0x000000000045a0f5 <???+4563189>
+0x00000000003fdad6 <thread_main_c+38>
+0x00000000003a3ff2 <???+3817458>
+	2019-03-09T19:17:38.000Z
+

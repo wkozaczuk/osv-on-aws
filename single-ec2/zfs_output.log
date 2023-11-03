@@ -1,0 +1,67 @@
+i-0561dfcedc57267ae	OSv v0.52.0-55-gb8bba9c7
+1 CPUs detected
+Firmware vendor: Xen
+bsd: initializing - done
+VFS: mounting ramfs at /
+VFS: mounting devfs at /dev
+net: initializing - done
+vga: Add VGA device instance
+eth0: ethernet address: 0a:97:39:8c:21:0a
+backend features: feature-sg feature-gso-tcp4
+1024MB <Virtual Block Device> at device/vbd/51712random: intel drng, rdrand registered as a source.
+random: <Software, Yarrow> initialized
+VFS: unmounting /dev
+VFS: mounting rofs at /rofs
+failed to mount /rofs, error = No error information
+VFS: mounting zfs at /zfs
+zfs: mounting osv/zfs from device /dev/vblk0.1
+random: device unblocked.
+VFS: mounting devfs at /dev
+VFS: mounting procfs at /proc
+program zpool.so returned 1
+BSD shrinker: event handler list found: 0xffffa00000d19a00
+	BSD shrinker found: 1
+BSD shrinker: unlocked, running
+[E/28 bsd-log]: eth0: link state changed to DOWN
+
+[E/28 bsd-log]: eth0: link state changed to UP
+
+[I/28 dhcp]: Broadcasting DHCPDISCOVER message with xid: [136272039]
+[I/28 dhcp]: Waiting for IP...
+[I/197 dhcp]: DHCP received hostname: ip-172-31-7-33
+
+[I/197 dhcp]: Received DHCPOFFER message from DHCP server: 172.31.0.1 regarding offerred IP address: 172.31.7.33
+[I/197 dhcp]: Broadcasting DHCPREQUEST message with xid: [136272039] to SELECT offered IP: 172.31.7.33
+[I/197 dhcp]: DHCP received hostname: ip-172-31-7-33
+
+[I/197 dhcp]: Received DHCPACK message from DHCP server: 172.31.0.1 regarding offerred IP address: 172.31.7.33
+[I/197 dhcp]: Server acknowledged IP 172.31.7.33 for interface eth0 with time to lease in seconds: 3600
+eth0: 172.31.7.33
+[I/197 dhcp]: Configuring eth0: ip 172.31.7.33 subnet mask 255.255.240.0 gateway 172.31.0.1 MTU 9001
+[E/197 bsd-log]: eth0: link state changed to DOWN
+
+[E/197 bsd-log]: eth0: link state changed to UP
+
+[I/197 dhcp]: Set hostname to: ip-172-31-7-33
+Running from /init/30-auto-03: /libhttpserver-api.so --config-file=/etc/httpserver.conf &!
+Go version: go1.11
+Starting http server to listen on port 8080 ...
+httpserver: loaded plugin from path: /usr/mgmt/plugins/libhttpserver-api_env.so
+httpserver: loaded plugin from path: /usr/mgmt/plugins/libhttpserver-api_network.so
+httpserver: loaded plugin from path: /usr/mgmt/plugins/libhttpserver-api_api.so
+httpserver: loaded plugin from path: /usr/mgmt/plugins/libhttpserver-api_hardware.so
+httpserver: loaded plugin from path: /usr/mgmt/plugins/libhttpserver-api_os.so
+httpserver: loaded plugin from path: /usr/mgmt/plugins/libhttpserver-api_fs.so
+httpserver: loaded plugin from path: /usr/mgmt/plugins/libhttpserver-api_trace.so
+httpserver: loaded plugin from path: /usr/mgmt/plugins/libhttpserver-api_file.so
+httpserver: loaded plugin from path: /usr/mgmt/plugins/libhttpserver-api_app.so
+httpserver: setup file mapping: [/api-gui] -> [/usr/mgmt/swagger-ui/dist/index.html]
+httpserver: setup directory mapping: [/api] -> [/usr/mgmt/api]
+httpserver: setup directory mapping: [/dashboard_static] -> [/usr/mgmt/gui/dashboard_static]
+httpserver: setup file mapping: [/dashboard] -> [/usr/mgmt/gui/dashboard/index.html]
+httpserver: setup directory mapping: [/api-gui] -> [/usr/mgmt/swagger-ui/dist]
+httpserver: setup file mapping: [/cli] -> [/usr/mgmt/cli/index.html]
+httpserver: setup directory mapping: [/cli] -> [/usr/mgmt/cli]
+httpserver: setup redirect: [/] -> [/dashboard/]
+Rest API server running on port 8000
+	2019-03-09T19:33:48.000Z
